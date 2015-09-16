@@ -1,0 +1,17 @@
+import numpy as np
+# Setup the parameters these are all taken from the literature
+beta=0.98
+psi=1.88
+delta=0.05
+gamman=0.02
+gammaz=0.03
+theta=0.36
+
+parameters=[beta, psi, delta, gamman, gammaz, theta]
+
+# Create a linspace for all the possible values of capital and labour
+n=10
+capval=np.linspace(0,5,n)
+labval=np.linspace(0,1,n)
+
+
